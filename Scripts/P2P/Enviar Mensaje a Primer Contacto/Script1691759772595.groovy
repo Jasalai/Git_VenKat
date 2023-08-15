@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.cybercapitalparnerscorp.venchat.develop')
 
-Mobile.waitForElementPresent(findTestObject('Object Repository/Main Menu - Chats/primer contacto'), 0)
+Mobile.waitForElementPresent(findTestObject('Main Menu - Chats/probando'), 0)
 
-Mobile.tap(findTestObject('Main Menu - Chats/primer contacto'), 0)
+Mobile.tap(findTestObject('Main Menu - Chats/probando'), 0)
 
 Mobile.tap(findTestObject('chat P2P/caja de texto'), 0)
 
