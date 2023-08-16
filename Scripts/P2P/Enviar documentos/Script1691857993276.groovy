@@ -22,11 +22,11 @@ Mobile.startExistingApplication('com.cybercapitalparnerscorp.venchat.develop', F
 // enviar docx
 Mobile.tap(findTestObject('chat P2P/boton adjuntar'), 0)
 Mobile.tap(findTestObject('chat P2P/adjuntar documentos'), 0)
-Mobile.tap(findTestObject('chat P2P/boton lupa - archivos'), 0)
-Mobile.sendKeys(findTestObject('chat P2P/caja de texto - archivos'), 'ven.docx')
+Mobile.tap(findTestObject('chat P2P/buscar archivos'), 0)
+Mobile.sendKeys(findTestObject('chat P2P/buscar archivo'), 'ven.docx')
 Mobile.pressBack()
 try {
-	Mobile.tap(findTestObject('chat P2P/primer elemento - archivos'), 0)
+	Mobile.tap(findTestObject('chat P2P/seleccionar primer archivo'), 0)
 }
 catch (Exception e) {
 	Mobile.pressBack()
@@ -35,11 +35,11 @@ catch (Exception e) {
 // enviar doc
 Mobile.tap(findTestObject('chat P2P/boton adjuntar'), 0)
 Mobile.tap(findTestObject('chat P2P/adjuntar documentos'), 0)
-Mobile.tap(findTestObject('chat P2P/boton lupa - archivos'), 0)
-Mobile.sendKeys(findTestObject('chat P2P/caja de texto - archivos'), 'ven.doc')
+Mobile.tap(findTestObject('chat P2P/buscar archivos'), 0)
+Mobile.sendKeys(findTestObject('chat P2P/buscar archivo'), 'ven.doc')
 Mobile.pressBack()
 try {
-	Mobile.tap(findTestObject('chat P2P/primer elemento - archivos'), 0)
+	Mobile.tap(findTestObject('chat P2P/seleccionar primer archivo'), 0)
 }
 catch (Exception e) {
 	Mobile.pressBack()
@@ -48,11 +48,11 @@ catch (Exception e) {
 // enviar pptx
 Mobile.tap(findTestObject('chat P2P/boton adjuntar'), 0)
 Mobile.tap(findTestObject('chat P2P/adjuntar documentos'), 0)
-Mobile.tap(findTestObject('chat P2P/boton lupa - archivos'), 0)
-Mobile.sendKeys(findTestObject('chat P2P/caja de texto - archivos'), 'ven.pptx')
+Mobile.tap(findTestObject('chat P2P/buscar archivos'), 0)
+Mobile.sendKeys(findTestObject('chat P2P/buscar archivo'), 'ven.pptx')
 Mobile.pressBack()
 try {
-	Mobile.tap(findTestObject('chat P2P/primer elemento - archivos'), 0)
+	Mobile.tap(findTestObject('chat P2P/seleccionar primer archivo'), 0)
 }
 catch (Exception e) {
 	Mobile.pressBack()
@@ -61,11 +61,11 @@ catch (Exception e) {
 // enviar ppt
 Mobile.tap(findTestObject('chat P2P/boton adjuntar'), 0)
 Mobile.tap(findTestObject('chat P2P/adjuntar documentos'), 0)
-Mobile.tap(findTestObject('chat P2P/boton lupa - archivos'), 0)
-Mobile.sendKeys(findTestObject('chat P2P/caja de texto - archivos'), 'ven.ppt')
+Mobile.tap(findTestObject('chat P2P/buscar archivos'), 0)
+Mobile.sendKeys(findTestObject('chat P2P/buscar archivo'), 'ven.ppt')
 Mobile.pressBack()
 try {
-	Mobile.tap(findTestObject('chat P2P/primer elemento - archivos'), 0)
+	Mobile.tap(findTestObject('chat P2P/seleccionar primer archivo'), 0)
 }
 catch (Exception e) {
 	Mobile.pressBack()
@@ -74,11 +74,11 @@ catch (Exception e) {
 // enviar xlsx
 Mobile.tap(findTestObject('chat P2P/boton adjuntar'), 0)
 Mobile.tap(findTestObject('chat P2P/adjuntar documentos'), 0)
-Mobile.tap(findTestObject('chat P2P/boton lupa - archivos'), 0)
-Mobile.sendKeys(findTestObject('chat P2P/caja de texto - archivos'), 'ven.xlsx')
+Mobile.tap(findTestObject('chat P2P/buscar archivos'), 0)
+Mobile.sendKeys(findTestObject('chat P2P/buscar archivo'), 'ven.xlsx')
 Mobile.pressBack()
 try {
-	Mobile.tap(findTestObject('chat P2P/primer elemento - archivos'), 0)
+	Mobile.tap(findTestObject('chat P2P/seleccionar primer archivo'), 0)
 }
 catch (Exception e) {
 	Mobile.pressBack()
@@ -87,11 +87,11 @@ catch (Exception e) {
 // enviar xls
 Mobile.tap(findTestObject('chat P2P/boton adjuntar'), 0)
 Mobile.tap(findTestObject('chat P2P/adjuntar documentos'), 0)
-Mobile.tap(findTestObject('chat P2P/boton lupa - archivos'), 0)
-Mobile.sendKeys(findTestObject('chat P2P/caja de texto - archivos'), 'ven.xls')
+Mobile.tap(findTestObject('chat P2P/buscar archivos'), 0)
+Mobile.sendKeys(findTestObject('chat P2P/buscar archivo'), 'ven.xls')
 Mobile.pressBack()
 try {
-	Mobile.tap(findTestObject('chat P2P/primer elemento - archivos'), 0)
+	Mobile.tap(findTestObject('chat P2P/seleccionar primer archivo'), 0)
 }
 catch (Exception e) {
 	Mobile.pressBack()
@@ -100,11 +100,11 @@ catch (Exception e) {
 // enviar png
 Mobile.tap(findTestObject('chat P2P/boton adjuntar'), 0)
 Mobile.tap(findTestObject('chat P2P/adjuntar documentos'), 0)
-Mobile.tap(findTestObject('chat P2P/boton lupa - archivos'), 0)
-Mobile.sendKeys(findTestObject('chat P2P/caja de texto - archivos'), 'ven.png')
+Mobile.tap(findTestObject('chat P2P/buscar archivos'), 0)
+Mobile.sendKeys(findTestObject('chat P2P/buscar archivo'), 'ven.png')
 Mobile.pressBack()
 try {
-	Mobile.tap(findTestObject('chat P2P/primer elemento - archivos'), 0)
+	Mobile.tap(findTestObject('chat P2P/seleccionar primer archivo'), 0)
 }
 catch (Exception e) {
 	Mobile.pressBack()
@@ -113,11 +113,11 @@ catch (Exception e) {
 // enviar jpeg
 Mobile.tap(findTestObject('chat P2P/boton adjuntar'), 0)
 Mobile.tap(findTestObject('chat P2P/adjuntar documentos'), 0)
-Mobile.tap(findTestObject('chat P2P/boton lupa - archivos'), 0)
-Mobile.sendKeys(findTestObject('chat P2P/caja de texto - archivos'), 'ven.jpeg')
+Mobile.tap(findTestObject('chat P2P/buscar archivos'), 0)
+Mobile.sendKeys(findTestObject('chat P2P/buscar archivo'), 'ven.jpeg')
 Mobile.pressBack()
 try {
-	Mobile.tap(findTestObject('chat P2P/primer elemento - archivos'), 0)
+	Mobile.tap(findTestObject('chat P2P/seleccionar primer archivo'), 0)
 }
 catch (Exception e) {
 	Mobile.pressBack()
@@ -126,11 +126,11 @@ catch (Exception e) {
 // enviar psd
 Mobile.tap(findTestObject('chat P2P/boton adjuntar'), 0)
 Mobile.tap(findTestObject('chat P2P/adjuntar documentos'), 0)
-Mobile.tap(findTestObject('chat P2P/boton lupa - archivos'), 0)
-Mobile.sendKeys(findTestObject('chat P2P/caja de texto - archivos'), 'ven.psd')
+Mobile.tap(findTestObject('chat P2P/buscar archivos'), 0)
+Mobile.sendKeys(findTestObject('chat P2P/buscar archivo'), 'ven.psd')
 Mobile.pressBack()
 try {
-	Mobile.tap(findTestObject('chat P2P/primer elemento - archivos'), 0)
+	Mobile.tap(findTestObject('chat P2P/seleccionar primer archivo'), 0)
 }
 catch (Exception e) {
 	Mobile.pressBack()
@@ -140,11 +140,11 @@ catch (Exception e) {
 Mobile.tap(findTestObject('chat P2P/boton adjuntar'), 0)
 Mobile.tap(findTestObject('chat P2P/adjuntar audio'), 0)
 Mobile.tap(findTestObject('chat P2P/desde la galeria'), 0)
-Mobile.tap(findTestObject('chat P2P/boton lupa - archivos'), 0)
-Mobile.sendKeys(findTestObject('chat P2P/caja de texto - archivos'), 'ven.3gp')
+Mobile.tap(findTestObject('chat P2P/buscar archivos'), 0)
+Mobile.sendKeys(findTestObject('chat P2P/buscar archivo'), 'ven.3gp')
 Mobile.pressBack()
 try {
-	Mobile.tap(findTestObject('chat P2P/primer elemento - archivos'), 0)
+	Mobile.tap(findTestObject('chat P2P/seleccionar primer archivo'), 0)
 }
 catch (Exception e) {
 	Mobile.pressBack()
@@ -154,11 +154,11 @@ catch (Exception e) {
 Mobile.tap(findTestObject('chat P2P/boton adjuntar'), 0)
 Mobile.tap(findTestObject('chat P2P/adjuntar video'), 0)
 Mobile.tap(findTestObject('chat P2P/desde la galeria'), 0)
-Mobile.tap(findTestObject('chat P2P/boton lupa - archivos'), 0)
-Mobile.sendKeys(findTestObject('chat P2P/caja de texto - archivos'), 'ven.mov')
+Mobile.tap(findTestObject('chat P2P/buscar archivos'), 0)
+Mobile.sendKeys(findTestObject('chat P2P/buscar archivo'), 'ven.mov')
 Mobile.pressBack()
 try {
-	Mobile.tap(findTestObject('chat P2P/primer elemento - archivos'), 0)
+	Mobile.tap(findTestObject('chat P2P/seleccionar primer archivo'), 0)
 }
 catch (Exception e) {
 	Mobile.pressBack()
@@ -168,11 +168,11 @@ catch (Exception e) {
 Mobile.tap(findTestObject('chat P2P/boton adjuntar'), 0)
 Mobile.tap(findTestObject('chat P2P/adjuntar video'), 0)
 Mobile.tap(findTestObject('chat P2P/desde la galeria'), 0)
-Mobile.tap(findTestObject('chat P2P/boton lupa - archivos'), 0)
-Mobile.sendKeys(findTestObject('chat P2P/caja de texto - archivos'), 'ven.mp4')
+Mobile.tap(findTestObject('chat P2P/buscar archivos'), 0)
+Mobile.sendKeys(findTestObject('chat P2P/buscar archivo'), 'ven.mp4')
 Mobile.pressBack()
 try {
-	Mobile.tap(findTestObject('chat P2P/primer elemento - archivos'), 0)
+	Mobile.tap(findTestObject('chat P2P/seleccionar primer archivo'), 0)
 }
 catch (Exception e) {
 	Mobile.pressBack()
@@ -182,11 +182,11 @@ catch (Exception e) {
 Mobile.tap(findTestObject('chat P2P/boton adjuntar'), 0)
 Mobile.tap(findTestObject('chat P2P/adjuntar video'), 0)
 Mobile.tap(findTestObject('chat P2P/desde la galeria'), 0)
-Mobile.tap(findTestObject('chat P2P/boton lupa - archivos'), 0)
-Mobile.sendKeys(findTestObject('chat P2P/caja de texto - archivos'), 'ven.webm')
+Mobile.tap(findTestObject('chat P2P/buscar archivos'), 0)
+Mobile.sendKeys(findTestObject('chat P2P/buscar archivo'), 'ven.webm')
 Mobile.pressBack()
 try {
-	Mobile.tap(findTestObject('chat P2P/primer elemento - archivos'), 0)
+	Mobile.tap(findTestObject('chat P2P/seleccionar primer archivo'), 0)
 }
 catch (Exception e) {
 	Mobile.pressBack()
@@ -195,11 +195,11 @@ catch (Exception e) {
 // enviar pdf
 Mobile.tap(findTestObject('chat P2P/boton adjuntar'), 0)
 Mobile.tap(findTestObject('chat P2P/adjuntar documentos'), 0)
-Mobile.tap(findTestObject('chat P2P/boton lupa - archivos'), 0)
-Mobile.sendKeys(findTestObject('chat P2P/caja de texto - archivos'), 'ven.pdf')
+Mobile.tap(findTestObject('chat P2P/buscar archivos'), 0)
+Mobile.sendKeys(findTestObject('chat P2P/buscar archivo'), 'ven.pdf')
 Mobile.pressBack()
 try {
-	Mobile.tap(findTestObject('chat P2P/primer elemento - archivos'), 0)
+	Mobile.tap(findTestObject('chat P2P/seleccionar primer archivo'), 0)
 }
 catch (Exception e) {
 	Mobile.pressBack()
@@ -208,11 +208,11 @@ catch (Exception e) {
 // enviar ai
 Mobile.tap(findTestObject('chat P2P/boton adjuntar'), 0)
 Mobile.tap(findTestObject('chat P2P/adjuntar documentos'), 0)
-Mobile.tap(findTestObject('chat P2P/boton lupa - archivos'), 0)
-Mobile.sendKeys(findTestObject('chat P2P/caja de texto - archivos'), 'ven.ai')
+Mobile.tap(findTestObject('chat P2P/buscar archivos'), 0)
+Mobile.sendKeys(findTestObject('chat P2P/buscar archivo'), 'ven.ai')
 Mobile.pressBack()
 try {
-	Mobile.tap(findTestObject('chat P2P/primer elemento - archivos'), 0)
+	Mobile.tap(findTestObject('chat P2P/seleccionar primer archivo'), 0)
 }
 catch (Exception e) {
 	Mobile.pressBack()

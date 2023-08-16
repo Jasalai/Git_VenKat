@@ -17,20 +17,30 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.testobject.ConditionType
+import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory
+import io.appium.java_client.AppiumDriver
 
 Mobile.startExistingApplication('com.cybercapitalparnerscorp.venchat.develop')
 
 // enviar mensaje tipo confidencial
 Mobile.tap(findTestObject('chat P2P/boton tipo de mensaje'), 0)
 Mobile.tap(findTestObject('chat P2P/modo confidencial'), 0)
-Mobile.tap(findTestObject('chat P2P/caja de texto en chat'), 0)
-Mobile.sendKeys(findTestObject('chat P2P/caja de texto en chat'), 'Test - mensaje confidencial')
+Mobile.tap(findTestObject('chat P2P/comentar adjunto'), 0)
+Mobile.sendKeys(findTestObject('chat P2P/comentar adjunto'), 'Test - mensaje confidencial')
 Mobile.tap(findTestObject('chat P2P/boton enviar'), 0)
+
+AppiumDriver<?> driver = MobileDriverFactory.getDriver()
+hora_actual = driver.getDeviceTime('h:m a')
+hora_actual.replace('p', 'p. ')
+hora_actual.replace('a', 'a. ')
+hora_actual.replace('m', 'm.')
+
+Mobile.tapAndHold(findTestObject(hora_actual), 4, 0, FailureHandling.STOP_ON_FAILURE)
 
 // enviar mensaje tipo borrar
 Mobile.tap(findTestObject('chat P2P/boton tipo de mensaje'), 0)
 Mobile.tap(findTestObject('chat P2P/modo borrado automatico'), 0)
-Mobile.tap(findTestObject('chat P2P/caja de texto en chat'), 0)
-Mobile.sendKeys(findTestObject('chat P2P/caja de texto en chat'), 'Test - mensaje borrado automatico')
+Mobile.tap(findTestObject('chat P2P/comentar adjunto'), 0)
+Mobile.sendKeys(findTestObject('chat P2P/comentar adjunto'), 'Test - mensaje borrado automatico')
 Mobile.tap(findTestObject('chat P2P/boton enviar'), 0)
 

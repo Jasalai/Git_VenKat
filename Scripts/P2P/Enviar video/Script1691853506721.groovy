@@ -25,21 +25,21 @@ Mobile.tap(findTestObject('chat P2P/adjuntar video'), 0)
 
 Mobile.tap(findTestObject('chat P2P/desde la camara'), 0)
 
-Mobile.tap(findTestObject('chat P2P/boton de camara - video'), 0, FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('chat P2P/grabar video'), 0, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tapAndHold(findTestObject('chat P2P/boton de camara - video'), 6, 0)
+Mobile.tapAndHold(findTestObject('chat P2P/grabar video'), 6, 0)
 
-Mobile.tap(findTestObject('chat P2P/boton de camara - video'), 0)
+Mobile.tap(findTestObject('chat P2P/grabar video'), 0)
 
 Mobile.tap(findTestObject('chat P2P/aceptar video'), 0)
 
 Mobile.tap(findTestObject('chat P2P/aceptar video - 2'), 0)
 
-Mobile.waitForElementPresent(findTestObject('chat P2P/caja de texto'), 0)
+Mobile.waitForElementPresent(findTestObject('chat P2P/escribir mensaje'), 0)
 
-Mobile.tap(findTestObject('chat P2P/caja de texto'), 0)
+Mobile.tap(findTestObject('chat P2P/escribir mensaje'), 0)
 
-Mobile.sendKeys(findTestObject('chat P2P/caja de texto'), 'Auto - Video')
+Mobile.sendKeys(findTestObject('chat P2P/escribir mensaje'), 'Auto - Video')
 
-Mobile.tap(findTestObject('chat P2P/enviar2'), 0)
+Mobile.tap(findTestObject('chat P2P/enviar adjunto'), 0)
 

@@ -25,13 +25,13 @@ Mobile.tap(findTestObject('chat P2P/adjuntar foto'), 0)
 
 Mobile.tap(findTestObject('chat P2P/desde la camara'), 0)
 
-Mobile.tap(findTestObject('chat P2P/boton de camara'), 0)
+Mobile.tap(findTestObject('chat P2P/tomar foto'), 0)
 
-Mobile.tap(findTestObject('chat P2P/crop - aceptar'), 0)
+Mobile.tap(findTestObject('chat P2P/aceptar edicion foto'), 0)
 
-Mobile.tap(findTestObject('chat P2P/caja de texto'), 0)
+Mobile.tap(findTestObject('chat P2P/escribir mensaje'), 0)
 
-Mobile.sendKeys(findTestObject('chat P2P/caja de texto'), 'Auto - foto')
+Mobile.sendKeys(findTestObject('chat P2P/escribir mensaje'), 'Auto - foto')
 
-Mobile.tap(findTestObject('chat P2P/enviar2'), 0)
+Mobile.tap(findTestObject('chat P2P/enviar adjunto'), 0)
 

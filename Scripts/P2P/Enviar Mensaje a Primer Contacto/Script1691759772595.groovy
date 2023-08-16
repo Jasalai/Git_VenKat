@@ -23,9 +23,9 @@ Mobile.waitForElementPresent(findTestObject('Main Menu - Chats/probando'), 0)
 
 Mobile.tap(findTestObject('Main Menu - Chats/probando'), 0)
 
-Mobile.tap(findTestObject('chat P2P/caja de texto'), 0)
+Mobile.tap(findTestObject('chat P2P/escribir mensaje'), 0)
 
-Mobile.sendKeys(findTestObject('chat P2P/caja de texto'), 'hola - auto')
+Mobile.sendKeys(findTestObject('chat P2P/escribir mensaje'), 'hola - auto')
 
 Mobile.tap(findTestObject('chat P2P/boton enviar'), 0)
 
