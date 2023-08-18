@@ -19,19 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.cybercapitalparnerscorp.venchat.develop', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('chat P2P/boton adjuntar'), 0)
-
-Mobile.tap(findTestObject('chat P2P/adjuntar foto'), 0)
-
-Mobile.tap(findTestObject('chat P2P/desde la camara'), 0)
-
-Mobile.tap(findTestObject('chat P2P/tomar foto'), 0)
-
-Mobile.tap(findTestObject('chat P2P/aceptar edicion foto'), 0)
-
-Mobile.tap(findTestObject('chat P2P/escribir mensaje'), 0)
-
-Mobile.sendKeys(findTestObject('chat P2P/escribir mensaje'), 'Auto - foto')
-
-Mobile.tap(findTestObject('chat P2P/enviar adjunto'), 0)
+Mobile.tapAndHold(findTestObject('Chat P2P - Grupal/boton grabar audio'), 6, 0)
 

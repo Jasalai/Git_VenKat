@@ -15,14 +15,14 @@
       <guid>e0a875a7-0cd8-4778-94a1-c45518f4599d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/P2P/Enviar Mensaje a Primer Contacto</testCaseId>
+      <testCaseId>Test Cases/Chat P2P - Grupal/Enviar Mensaje a Primer Contacto</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>44c3cf06-8eef-4816-a7d8-61e8726b610c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/P2P/Enviar foto</testCaseId>
+      <testCaseId>Test Cases/Chat P2P - Grupal/Enviar foto</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
