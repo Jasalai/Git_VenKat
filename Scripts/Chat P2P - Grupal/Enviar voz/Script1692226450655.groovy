@@ -19,5 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.cybercapitalparnerscorp.venchat.develop', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tapAndHold(findTestObject('Chat P2P - Grupal/boton grabar audio'), 6, 0)
+Mobile.tapAndHold(findTestObject('Main Principal/Main Menu - Chats P2P/Chat P2P/boton grabar audio'), 6, 0)
 

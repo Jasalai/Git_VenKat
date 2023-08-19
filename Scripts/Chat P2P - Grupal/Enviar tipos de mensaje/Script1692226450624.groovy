@@ -23,11 +23,11 @@ import io.appium.java_client.AppiumDriver
 Mobile.startExistingApplication('com.cybercapitalparnerscorp.venchat.develop')
 
 // enviar mensaje tipo confidencial
-Mobile.tap(findTestObject('Chat P2P - Grupal/boton tipo de mensaje'), 0)
-Mobile.tap(findTestObject('Chat P2P - Grupal/modo confidencial'), 0)
-Mobile.tap(findTestObject('Chat P2P - Grupal/comentar adjunto'), 0)
-Mobile.sendKeys(findTestObject('Chat P2P - Grupal/comentar adjunto'), 'Test - mensaje confidencial')
-Mobile.tap(findTestObject('Chat P2P - Grupal/boton enviar'), 0)
+Mobile.tap(findTestObject('Main Principal/Main Menu - Chats P2P/Chat P2P/Tipos de mensaje/boton tipo de mensaje'), 0)
+Mobile.tap(findTestObject('Main Principal/Main Menu - Chats P2P/Chat P2P/Tipos de mensaje/modo confidencial'), 0)
+Mobile.tap(findTestObject('Main Principal/Main Menu - Chats P2P/Chat P2P/Adjuntar/comentar adjunto'), 0)
+Mobile.sendKeys(findTestObject('Main Principal/Main Menu - Chats P2P/Chat P2P/Adjuntar/comentar adjunto'), 'Test - mensaje confidencial')
+Mobile.tap(findTestObject('Main Principal/Main Menu - Chats P2P/Chat P2P/boton enviar'), 0)
 
 /*AppiumDriver<?> driver = MobileDriverFactory.getDriver()
 hora_actual = driver.getDeviceTime('h:m a')
@@ -36,9 +36,9 @@ hora_actual.replace('a', 'a. ')
 hora_actual.replace('m', 'm.')*/
 
 // enviar mensaje tipo borrar
-Mobile.tap(findTestObject('Chat P2P - Grupal/boton tipo de mensaje'), 0)
-Mobile.tap(findTestObject('Chat P2P - Grupal/modo borrado automatico'), 0)
-Mobile.tap(findTestObject('Chat P2P - Grupal/comentar adjunto'), 0)
-Mobile.sendKeys(findTestObject('Chat P2P - Grupal/comentar adjunto'), 'Test - mensaje borrado automatico')
-Mobile.tap(findTestObject('Chat P2P - Grupal/boton enviar'), 0)
+Mobile.tap(findTestObject('Main Principal/Main Menu - Chats P2P/Chat P2P/Tipos de mensaje/boton tipo de mensaje'), 0)
+Mobile.tap(findTestObject('Main Principal/Main Menu - Chats P2P/Chat P2P/Tipos de mensaje/modo borrado automatico'), 0)
+Mobile.tap(findTestObject('Main Principal/Main Menu - Chats P2P/Chat P2P/Adjuntar/comentar adjunto'), 0)
+Mobile.sendKeys(findTestObject('Main Principal/Main Menu - Chats P2P/Chat P2P/Adjuntar/comentar adjunto'), 'Test - mensaje borrado automatico')
+Mobile.tap(findTestObject('Main Principal/Main Menu - Chats P2P/Chat P2P/boton enviar'), 0)
 

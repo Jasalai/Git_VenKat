@@ -19,19 +19,19 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.cybercapitalparnerscorp.venchat.develop', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Chat P2P - Grupal/boton adjuntar'), 0)
+Mobile.tap(findTestObject('Main Principal/Main Menu - Chats P2P/Chat P2P/Adjuntar/abrir adjuntar'), 0)
 
-Mobile.tap(findTestObject('Chat P2P - Grupal/adjuntar foto'), 0)
+Mobile.tap(findTestObject('Main Principal/Main Menu - Chats P2P/Chat P2P/Adjuntar/adjuntar foto'), 0)
 
-Mobile.tap(findTestObject('Chat P2P - Grupal/desde la camara'), 0)
+Mobile.tap(findTestObject('Main Principal/Main Menu - Chats P2P/Chat P2P/Adjuntar/documentos/desde la camara'), 0)
 
-Mobile.tap(findTestObject('Chat P2P - Grupal/tomar foto'), 0)
+Mobile.tap(findTestObject('Main Principal/Main Menu - Chats P2P/Chat P2P/Adjuntar/foto/tomar foto'), 0)
 
-Mobile.tap(findTestObject('Chat P2P - Grupal/aceptar edicion foto'), 0)
+Mobile.tap(findTestObject('Main Principal/Main Menu - Chats P2P/Chat P2P/Adjuntar/foto/aceptar edicion foto'), 0)
 
-Mobile.tap(findTestObject('Chat P2P - Grupal/escribir mensaje'), 0)
+Mobile.tap(findTestObject('Main Principal/Main Menu - Chats P2P/Chat P2P/escribir mensaje'), 0)
 
-Mobile.sendKeys(findTestObject('Chat P2P - Grupal/escribir mensaje'), 'Auto - foto')
+Mobile.sendKeys(findTestObject('Main Principal/Main Menu - Chats P2P/Chat P2P/escribir mensaje'), 'Auto - foto')
 
-Mobile.tap(findTestObject('Chat P2P - Grupal/enviar adjunto'), 0)
+Mobile.tap(findTestObject('Main Principal/Main Menu - Chats P2P/Chat P2P/Adjuntar/enviar adjunto'), 0)
 

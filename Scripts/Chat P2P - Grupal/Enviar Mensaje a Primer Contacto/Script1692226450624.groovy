@@ -19,13 +19,19 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.cybercapitalparnerscorp.venchat.develop')
 
-Mobile.waitForElementPresent(findTestObject('Main Menu - Chats/probando'), 0)
+Mobile.waitForElementPresent(findTestObject('null'), 0)
 
-Mobile.tap(findTestObject('Main Menu - Chats/probando'), 0)
+Mobile.tap(findTestObject('null'), 0)
 
-Mobile.tap(findTestObject('Chat P2P - Grupal/escribir mensaje'), 0)
+Mobile.tap(findTestObject('Main Principal/Main Menu - Chats P2P/Chat P2P/escribir mensaje'), 0)
 
-Mobile.sendKeys(findTestObject('Chat P2P - Grupal/escribir mensaje'), 'hola - auto')
+Mobile.sendKeys(findTestObject('Main Principal/Main Menu - Chats P2P/Chat P2P/escribir mensaje'), 'hola - auto')
 
-Mobile.tap(findTestObject('Chat P2P - Grupal/boton enviar'), 0)
+Mobile.tap(findTestObject('Main Principal/Main Menu - Chats P2P/Chat P2P/boton enviar'), 0)
+
+WebUI.acceptAlert()
+
+WebUI.comment('ESTE CASO DE PRUEBA DEJARA DE RECIBIR SOPORTE')
+
+WebUI.comment('EN FUTURAS VERSIONES SERA SUSTITUIDO')
 

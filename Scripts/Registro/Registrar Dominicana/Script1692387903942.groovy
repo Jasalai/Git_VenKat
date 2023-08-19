@@ -21,71 +21,71 @@ Mobile.startExistingApplication('com.cybercapitalparnerscorp.venchat.develop', F
 
 Mobile.tap(findTestObject('Registrar/registrarse'), 0)
 
-Mobile.tap(findTestObject('Registrar/seleccionar pais'), 0)
+Mobile.tap(findTestObject('Registrar/Formulario 1 - Ingresa tu numero/seleccionar pais'), 0)
 
-Mobile.tap(findTestObject('Registrar/buscar pais'), 0)
+Mobile.tap(findTestObject('Registrar/Formulario 1 - Ingresa tu numero/buscar pais'), 0)
 
-Mobile.sendKeys(findTestObject('Registrar/buscar pais'), 'República Dominicana')
+Mobile.sendKeys(findTestObject('Registrar/Formulario 1 - Ingresa tu numero/buscar pais'), 'República Dominicana')
 
-Mobile.tap(findTestObject('Registrar/Republica Dominicana'), 0)
+Mobile.tap(findTestObject('Registrar/Formulario 1 - Ingresa tu numero/Republica Dominicana'), 0)
 
-Mobile.tap(findTestObject('Registrar/dial pad 3'), 0)
+Mobile.tap(findTestObject('Registrar/Formulario 2 - Validar OTP/dial pad 3'), 0)
 
-Mobile.tap(findTestObject('Registrar/dial pad 2'), 0)
+Mobile.tap(findTestObject('Registrar/Formulario 2 - Validar OTP/dial pad 2'), 0)
 
-Mobile.tap(findTestObject('Registrar/dial pad 3'), 0)
+Mobile.tap(findTestObject('Registrar/Formulario 2 - Validar OTP/dial pad 3'), 0)
 
-Mobile.tap(findTestObject('Registrar/dial pad 4'), 0)
+Mobile.tap(findTestObject('Registrar/Formulario 2 - Validar OTP/dial pad 4'), 0)
 
-Mobile.tap(findTestObject('Registrar/dial pad 5'), 0)
+Mobile.tap(findTestObject('Registrar/Formulario 2 - Validar OTP/dial pad 5'), 0)
 
-Mobile.tap(findTestObject('Registrar/dial pad 6'), 0)
+Mobile.tap(findTestObject('Registrar/Formulario 2 - Validar OTP/dial pad 6'), 0)
 
-Mobile.tap(findTestObject('Registrar/dial pad 7'), 0)
+Mobile.tap(findTestObject('Registrar/Formulario 2 - Validar OTP/dial pad 7'), 0)
 
-Mobile.tap(findTestObject('Registrar/dial pad 8'), 0)
+Mobile.tap(findTestObject('Registrar/Formulario 2 - Validar OTP/dial pad 8'), 0)
 
-Mobile.tap(findTestObject('Registrar/dial pad 9'), 0)
+Mobile.tap(findTestObject('Registrar/Formulario 2 - Validar OTP/dial pad 9'), 0)
 
-Mobile.tap(findTestObject('Registrar/dial pad 0'), 0)
+Mobile.tap(findTestObject('Registrar/Formulario 2 - Validar OTP/dial pad 0'), 0)
 
-Mobile.tap(findTestObject('Registrar/continuar y recibir otp'), 0)
+Mobile.tap(findTestObject('Registrar/Formulario 1 - Ingresa tu numero/continuar y recibir otp'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Registrar/ventana de validacion'), 0)
+Mobile.verifyElementVisible(findTestObject('Registrar/Formulario 2 - Validar OTP/ventana de validacion'), 0)
 
-Mobile.tap(findTestObject('Registrar/dial pad 3'), 0)
+Mobile.tap(findTestObject('Registrar/Formulario 2 - Validar OTP/dial pad 3'), 0)
 
-Mobile.tap(findTestObject('Registrar/dial pad 3'), 0)
+Mobile.tap(findTestObject('Registrar/Formulario 2 - Validar OTP/dial pad 3'), 0)
 
-Mobile.tap(findTestObject('Registrar/dial pad 3'), 0)
+Mobile.tap(findTestObject('Registrar/Formulario 2 - Validar OTP/dial pad 3'), 0)
 
-Mobile.tap(findTestObject('Registrar/dial pad 3'), 0)
+Mobile.tap(findTestObject('Registrar/Formulario 2 - Validar OTP/dial pad 3'), 0)
 
-Mobile.tap(findTestObject('Registrar/dial pad 3'), 0)
+Mobile.tap(findTestObject('Registrar/Formulario 2 - Validar OTP/dial pad 3'), 0)
 
-Mobile.tap(findTestObject('Registrar/dial pad 3'), 0)
+Mobile.tap(findTestObject('Registrar/Formulario 2 - Validar OTP/dial pad 3'), 0)
 
-Mobile.tap(findTestObject('Registrar/validar otp'), 0)
+Mobile.tap(findTestObject('Registrar/Formulario 2 - Validar OTP/validar otp'), 0)
 
-Mobile.tap(findTestObject('Registrar/ingresar nombre'), 0)
+Mobile.tap(findTestObject('Registrar/Formulario 3 - Nombre y foto/ingresar nombre'), 0)
 
-Mobile.sendKeys(findTestObject('Registrar/ingresar nombre'), 'Nuevo Usuario')
+Mobile.sendKeys(findTestObject('Registrar/Formulario 3 - Nombre y foto/ingresar nombre'), 'Nuevo Usuario')
 
-Mobile.tap(findTestObject('Registrar/ingresar descripcion'), 0)
+Mobile.tap(findTestObject('Registrar/Formulario 3 - Nombre y foto/ingresar descripcion'), 0)
 
-Mobile.sendKeys(findTestObject('Registrar/ingresar descripcion'), 'Placeholder')
+Mobile.sendKeys(findTestObject('Registrar/Formulario 3 - Nombre y foto/ingresar descripcion'), 'Placeholder')
 
-Mobile.tap(findTestObject('Registrar/aceptar terminos'), 0)
+Mobile.tap(findTestObject('Registrar/Formulario 3 - Nombre y foto/aceptar terminos'), 0)
 
-Mobile.tap(findTestObject('Registrar/agregar foto de perfil'), 0)
+Mobile.tap(findTestObject('Registrar/Formulario 3 - Nombre y foto/agregar foto de perfil'), 0)
 
-Mobile.tap(findTestObject('Registrar/agregar desde la camara'), 0)
+Mobile.tap(findTestObject('Registrar/Formulario 3 - Nombre y foto/agregar desde la camara'), 0)
 
-Mobile.tap(findTestObject('Chat P2P - Grupal/tomar foto'), 0)
+Mobile.tap(findTestObject('Main Principal/Main Menu - Chats P2P/Chat P2P/Adjuntar/foto/tomar foto'), 0)
 
-Mobile.tap(findTestObject('Registrar/aceptar foto'), 0)
+Mobile.tap(findTestObject('Registrar/Formulario 3 - Nombre y foto/aceptar foto'), 0)
 
-Mobile.tap(findTestObject('Registrar/completar registro'), 0)
+Mobile.tap(findTestObject('Registrar/Formulario 3 - Nombre y foto/completar registro'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Registrar/mensaje de exito'), 0)
+Mobile.verifyElementVisible(findTestObject('Registrar/Formulario 3 - Nombre y foto/mensaje de exito'), 0)
 

@@ -19,27 +19,27 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.cybercapitalparnerscorp.venchat.develop', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Chat P2P - Grupal/boton adjuntar'), 0)
+Mobile.tap(findTestObject('Main Principal/Main Menu - Chats P2P/Chat P2P/Adjuntar/abrir adjuntar'), 0)
 
-Mobile.tap(findTestObject('Chat P2P - Grupal/adjuntar video'), 0)
+Mobile.tap(findTestObject('Main Principal/Main Menu - Chats P2P/Chat P2P/Adjuntar/adjuntar video'), 0)
 
-Mobile.tap(findTestObject('Chat P2P - Grupal/desde la camara'), 0)
+Mobile.tap(findTestObject('Main Principal/Main Menu - Chats P2P/Chat P2P/Adjuntar/documentos/desde la camara'), 0)
 
-Mobile.tap(findTestObject('Chat P2P - Grupal/grabar video'), 0, FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Main Principal/Main Menu - Chats P2P/Chat P2P/Adjuntar/video/grabar video'), 0, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tapAndHold(findTestObject('Chat P2P - Grupal/grabar video'), 6, 0)
+Mobile.tapAndHold(findTestObject('Main Principal/Main Menu - Chats P2P/Chat P2P/Adjuntar/video/grabar video'), 6, 0)
 
-Mobile.tap(findTestObject('Chat P2P - Grupal/grabar video'), 0)
+Mobile.tap(findTestObject('Main Principal/Main Menu - Chats P2P/Chat P2P/Adjuntar/video/grabar video'), 0)
 
-Mobile.tap(findTestObject('Chat P2P - Grupal/aceptar video'), 0)
+Mobile.tap(findTestObject('Main Principal/Main Menu - Chats P2P/Chat P2P/Adjuntar/video/aceptar video'), 0)
 
-Mobile.tap(findTestObject('Chat P2P - Grupal/aceptar video - 2'), 0)
+Mobile.tap(findTestObject('Main Principal/Main Menu - Chats P2P/Chat P2P/Adjuntar/video/aceptar video - 2'), 0)
 
-Mobile.waitForElementPresent(findTestObject('Chat P2P - Grupal/escribir mensaje'), 0)
+Mobile.waitForElementPresent(findTestObject('Main Principal/Main Menu - Chats P2P/Chat P2P/escribir mensaje'), 0)
 
-Mobile.tap(findTestObject('Chat P2P - Grupal/escribir mensaje'), 0)
+Mobile.tap(findTestObject('Main Principal/Main Menu - Chats P2P/Chat P2P/escribir mensaje'), 0)
 
-Mobile.sendKeys(findTestObject('Chat P2P - Grupal/escribir mensaje'), 'Auto - Video')
+Mobile.sendKeys(findTestObject('Main Principal/Main Menu - Chats P2P/Chat P2P/escribir mensaje'), 'Auto - Video')
 
-Mobile.tap(findTestObject('Chat P2P - Grupal/enviar adjunto'), 0)
+Mobile.tap(findTestObject('Main Principal/Main Menu - Chats P2P/Chat P2P/Adjuntar/enviar adjunto'), 0)
 
