@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.cybercapitalparnerscorp.venchat.develop', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Registrar/registrarse'), 0)
+Mobile.tap(findTestObject('Registrar/iniciar registro'), 0)
 
 Mobile.tap(findTestObject('Registrar/Formulario 1 - Ingresa tu numero/seleccionar pais'), 0)
 
